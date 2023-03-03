@@ -18,9 +18,144 @@
             </ul>
         </nav>
 
+        <header>
+            <h1>Reserve Your Room</h1>
+            <h2>Our reservation policies</h2>
+        </header>
+
+<section class="policies">
+    <ul>
+        <li>Check-in time after 3:00pm on</li>
+        <li>Check-out time by 11:00am or charges are incurred</li>
+        <li>Breakfast and afternoon tea/snacks included in cost</li>
+        <li>Proof of COVID-19 Vaccination required. Upload image(s) below</li>
+        <li>50% deposit required at booking</li>
+        <li>Cancellations less than 72 hours ahead of check-in forfeit 50% of deposit</li>
+    </ul>
+</section>
+
+<section class="reserve">
+    <form method="post" name="reservation" data-netlify="true">
+
+<div>
+  <label for="firstName">First Name:</label>  
+  <input type="text" name="firstName" id="firstName" placeholder="first name" 
+  required>
+</div>
+
+<div>
+  <label for="lastName">Last Name:</label>  
+  <input type="text" name="lastName" id="lastName" placeholder="last name" 
+  required>
+</div>
+
+<div>
+    <label for="Email">Email:</label>  
+    <input type="email" name="email" id="email" placeholder="email" 
+    required>
+  </div>
+
+
+  <div>
+    <label for="phone">Phone:</label>  
+    <input type="tel" name="lastName" id="lastName" placeholder="phone" 
+    required>
+  </div>
+
+  <div>
+    <label for="check-in date">Check-in Date</label>  
+    <input type="date" name="Check-indate" id="Check-indate" placeholder="mm/dd/yyyy" 
+    required>
+  </div>
+  
+  <div>
+    <label for="check-out date">Check-out Date</label>  
+    <input type="date" name="Check-outdate" id="Check-outdate" placeholder="mm/dd/yyyy" 
+    required>
+  </div>
+
+  <div>
+    <label for="numberofGuests">Number of Guests (4 is maximum)</label>  
+    <input type="number" name="numberofGuests" id="numberofGuests" placeholder="" 
+    required>
+  </div>
+  
+  <label for="roomType">Room Type</label>
+  <select>
+  <option disabled hidden selected>Choose One</option>
+  <option>Two queens</option>
+  <option>Two Kings</option>
+  <option>Two twins</option>
+  
+  
+  </select>
+  <div>
+    <div>Ocean View (additional cost)</div>
+    <label for="view"></label>  
+    
+<label for="view">Yes</label>
+<input type="radio" name="view" id="yes" value="yes">
 
 
 
-    </div>
+
+</select>
+
+
+
+
+
+    <label for="view">No</label>
+    <input type="radio" name="view" id="no" value="no">
+    
+  </div>
+
+
+
+
+  <label for="allergies">List of alleregies or Other Requests</label>
+  <input type="text" name="allergies" id="allergies" placeholder="">
+
+<section>
+  <label for="agreetoTerms">I agree to all the terms listed above</label>
+  <input type="checkbox" name="agreetoTerms" id="agreetoterms" placeholder="">
+
+    </form>
+</section>
+
+
+<section>
+
+    <label for="password">Create a password to return. Username is your email.</label>
+    <input type="password" name="password" id="password" placeholder="">
+
+
+
+
+
+
+
+<input type="Reset" value="Reset">
+<input type="Submit" value="Submit">
+
+   
+<footer>
+<p>&copy;2023 The Inn at Snowy River
+    <section>
+    Stowe,VT  
+</section>
+</p>
+
+
+
+
+
+</footer>
+
+
+
+
+
+   
 </body>
 </html>
