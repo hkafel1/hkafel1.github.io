@@ -14,3 +14,96 @@ h3 {
     text-decoration: underline dotted rgba(154, 205, 50, .7) 6px;
     text-underline-offset: 6px;
 }
+
+h1{
+    font-size: 2.25rem;
+}
+
+
+h2{
+    font-size: 1.8rem;;
+    text-decoration: none;
+}
+
+h2::before
+h2::after {
+content: "\1F34D ";
+
+}
+
+
+
+h3{
+    font-size: 1.5rem;
+}
+
+nav li {
+    font-size: 1.3rem;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600;
+    letter-spacing: 1px;
+    list-style-type: none;
+    text-transform: uppercase;
+}
+
+
+nav,
+header {
+    text-align: center;
+}
+
+nav a,
+.assignments a,
+footer a {
+    text-decoration: none;
+    color: rgb(67, 92, 19);
+
+}
+
+
+nav a:link,
+nav a:visited {
+    line-height: 1.5;
+}
+
+nav a:hover,
+nav a:active {
+text-decoration: underline wavy rgb(240, 205, 6)2px;
+text-underline-offset: 6px;
+color: rgb(47, 125, 241);
+
+
+}
+
+
+nav a:hover::before{
+    content: "\1f34d";
+}
+
+
+header p {
+    font-size: 80%;
+}
+
+
+.assignments a:link,
+.assignments a:visited {
+    line-height: 1.6;
+}
+
+.assignments a:hover,
+.assignments a:active {
+    text-decoration: underline double;
+    text-underline-offset: 4px;
+}
+
+.assignments li::before {
+content: "\1f34d";
+font-size: 1.6rem;
+}
+
+footer {
+    color: rgb(49, 97, 170);
+    line-height: 80%;
+    font-weight: 500;
+}
