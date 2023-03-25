@@ -10,5 +10,7 @@ h1,
 h2,
 h3 {
     color: rgb(67, 92, 19);
-    
+    font-family:Georgia, 'Times New Roman', Times, serif ;
+    text-decoration: underline dotted rgba(154, 205, 50, .7) 6px;
+    text-underline-offset: 6px;
 }
