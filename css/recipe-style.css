@@ -206,4 +206,19 @@ margin-left: 20%;
         float: none;
      }
 
-   }
+
+
+.col1,
+.col2,
+.col3 {
+display: block;
+float: left;
+width: 30%;
+
+
+
+
+}
+
+
+   
